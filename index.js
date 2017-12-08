@@ -10,8 +10,9 @@ function johnLennonFacts(facts) {
   let length = facts.length;
   let i = 0;
   let newArray = [];
-  while(i >= length) {
+  while(i <= length) {
     newArray.push(`${facts[i]}!!!`)
+    i++
   }
   return newArray
 }
